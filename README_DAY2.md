@@ -6,6 +6,7 @@ The details are :
    2. EMAIL ID
    3. PASSWORD
    4. REFERRAL CODE
+   5. REGISTRATION NUMBER
 if all conditions are staisfied the it prints : "APPROVED"
 else it prints :"REJECTED"
 
@@ -28,6 +29,11 @@ Referral Code Rules:
       Must start with “REF”
       Next two characters must be digits 
       Last character must be ‘@’
+Validation order:
+   The order evaluating these credentials will be decided by the Registration number entered.
+If the last digit of entered registration number id >=0 and <=5, then password is verified first 
+Else the Student Id is verified
+
 
 
 Logics used :
