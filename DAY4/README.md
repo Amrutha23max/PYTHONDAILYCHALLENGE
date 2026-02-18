@@ -4,7 +4,11 @@ Overview:
 
 This Python program analyzes emergency resource requests during a disaster drill. It classifies each request into categories and 
 applies a personalized filtering rule based on the length of the user’s name.
-The program also displays the difference before and after applying the personalized logic.
+The program also displays the difference before and after applying the personalized logic helping users understand how filtering impacts the final dispatch plan.
+
+Objective
+
+The main objective of this project is to simulate how a command center might process and filter emergency resource requests in a structured and logical manner.
 
 Features:
 
@@ -38,6 +42,14 @@ Personalization Rule:
 PLI = 0 → Remove Low Demand requests
 PLI = 1 → Remove High Demand requests
 PLI = 2 → Keep only Moderate Demand requests
+
+Concepts Used
+
+For loops
+Conditional statements (if–elif–else)
+List handling
+User input handling
+Basic mathematical operations
 
 How to Run:
 Run the program:   python day4.py
