@@ -23,7 +23,7 @@ High Demand (> 50)
 
 Applies personalized filtering:
 
-PLI = (L × L) % 3
+PLI = L % 3
 Where L is the length of the name (excluding spaces)
 
 Displays:
