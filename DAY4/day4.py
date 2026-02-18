@@ -37,7 +37,7 @@ print("Invalid Requests:", invalid_requests)
 print("No Demand Requests:", no_demand)
 print()
 # PLI
-PLI = (L*L)%3
+PLI = L%3
 
 requests_removed =0
 if PLI ==0:
@@ -53,7 +53,7 @@ elif PLI ==2:
     
 print("=== Emergency Dispatch Report (AFTER PLI FILTERING) ===")
 print("Name Length (L):", L)
-print("PLI Logic: (L*L)%3")
+print("PLI Logic: L%3")
 print("PLI Value:", PLI)
 print()   
 print("Total Valid Requests:", total_valid_count)
